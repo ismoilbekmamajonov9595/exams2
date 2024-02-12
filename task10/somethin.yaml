@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: something
+  name: something
+spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        preference:
+          matchExpressions:
+          - key: student
+            operator: In
+            values:
+            - ismoil
+  replicas: 1
+  selector:
+    matchLabels:
+      app: something
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: something
+    spec:
+      containers:
+      - image: nvrbckdown/something
+        name: something
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

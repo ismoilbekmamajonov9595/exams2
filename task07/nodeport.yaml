@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: final-exam
+  name: final-exam-np
+  namespace: ismoil
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: final-exam
+  type: NodePort
+status:
+  loadBalancer: {}

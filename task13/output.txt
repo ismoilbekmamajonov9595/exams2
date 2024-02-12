@@ -1,0 +1,5 @@
+Taints:             bank=brb:NoSchedule
+Taints:             <none>
+Taints:             <none>
+Taints:             <none>
+Taints:             uacademy=proxima-devops:NoSchedule

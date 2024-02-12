@@ -1,0 +1,1 @@
+{"author":"Ismoil","message":"Well DONE!","node":"worker-node~","pod":"flask-app-pod"}

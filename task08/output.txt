@@ -1,0 +1,2 @@
+NAME         CLASS   HOSTS                  ADDRESS         PORTS     AGE
+final-exam   nginx   ismoil.nvrbckdown.uz   10.233.24.114   80, 443   14m
