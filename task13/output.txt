@@ -1,5 +1,6 @@
-Taints:             bank=brb:NoSchedule
-Taints:             <none>
-Taints:             <none>
-Taints:             <none>
-Taints:             uacademy=proxima-devops:NoSchedule
+master-node1   [map[effect:NoSchedule key:node-role.kubernetes.io/control-plane]]
+node1          [map[effect:NoSchedule key:bank value:brb]]
+node2          <none>
+node3          <none>
+node4          <none>
+node5          [map[effect:NoSchedule key:uacademy value:proxima-devops]]
